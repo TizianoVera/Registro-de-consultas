@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Registro</title>
+</head>
+<body>
+    <h1>Formulario de contato e registro de pacientes</h1>
+    <div class="caixa-dado">
+        <h2>Lista de espera</h2>
+        <label>
+            <input id="novatarefa" type="text">
+        </label id="nome-sobrenome">
+        <p>Nome / Sobrenome</p>
+        <ol>
+            <li class="dados"></li>
+        </ol>
+    <button id="botoningreso">Ingresse</button>
+    </div>
+    
+    <div class="caixa-info">
+        <form id="form" action="#" method="POST">
+            <label>
+                Agenda:
+                <input id="newDate" type="date" id="newDate" required>
+            </label>
+
+            <label> Nome completo
+                <input id="newTask" type="text" name="nome"  required placeholder="Insira, aqui">
+            </label>
+
+            <label>Telefone:
+                <input id="newTel" type="tel"  required name="Telefone" placeholder="Insira,aqui" >
+            </label>
+            <label>Email:
+                <input id="newEmail" type="email" name="email" required placeholder="Insira,aqui" >
+            </label>
+            <button type="button" onclick="adicionados()">Addicionar</button>
+        </form>
+        
+    </div >
+
+    <div class="caixa-list">
+        <h2>Pacientes agendados</h2>
+        <ul id="agendados">
+            <li></li>
+        </ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
