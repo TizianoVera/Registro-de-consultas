@@ -1,0 +1,84 @@
+*{
+    box-sizing:border-box;
+    background-color: slategray;
+    margin: 25px;
+    padding: 0;
+}
+
+h1{
+    display: flex;
+    text-align: center;
+    width: max-content;
+    color: navy;
+    margin: auto;
+    text-transform: capitalize;
+}
+
+ul, ol{
+    list-style: none;
+}
+
+.caixa-dado{
+    display: block;
+    border: solid 1px rgb(255, 255, 255);
+    box-shadow: -1px 4px 17px 8px rgba(0,0,0,0.64);
+    margin: 30px 15px 0px 15px;
+    text-transform: capitalize;
+    border-radius: 4px;
+}
+
+.caixa-dado input {
+    display: none;
+    margin: 15px;
+}
+.caixa-info{
+    display: table-caption;
+    width: 25%;
+    height: auto;
+    border: solid 1px rgb(255, 255, 255);
+    box-shadow: -1px 4px 17px 8px rgba(0,0,0,0.64);
+    margin: 50px 150px;
+    text-transform: capitalize;
+    border-radius: 4px;
+    float: left;
+}
+
+label{
+    margin: 15px auto;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+input{
+    display: block;
+    margin: 10px 0px;
+    padding: 3px;
+    border: 1px rgb(92, 92, 92) solid;
+}
+
+textarea{
+    margin: 5px;
+}
+
+.caixa-list{
+    display: block;
+    width: 50%;
+    height: auto;
+    border: solid 1px rgb(255, 255, 255);
+    box-shadow: -1px 4px 17px 8px rgba(0,0,0,0.64);
+    margin: 50px 570px;
+    text-transform: capitalize;
+    border-radius: 4px;
+}
+
+button{
+    padding: 5px;
+    border: 1px solid bisque;
+    border-radius: 3px;  
+    color: navy;
+    font-weight: 600;
+}
+
+button:hover{
+    background-color: steelblue;
+}
